@@ -1,0 +1,18 @@
+.orange-red {
+  color: orangered !important;
+  padding: 0.5rem 1rem;
+}
+.bg-orange-red {
+  background-color: orangered;
+}
+
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 26px !important;
+}
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder !important;
+  color: black !important;
+}
