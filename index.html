@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -14,14 +18,16 @@
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-orange-red ">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-orange-red mb-5"
+    >
       <div class="container">
-        <a href="#" class="navbar-brand text-white "> Newsweek</a>
+        <a href="#" class="navbar-brand text-white display-lg-1"> Newsweek</a>
 
         <ul class="navbar-nav ">
-          <div class="d-flex">
+          <div class="d-flex align-items-center">
             <a href="#" class="nav-link text-white mr-2">SIGN IN</a>
-            <a href="#" class=" bg-white orange-red ">SUBSCRIBE</a>
+            <a href="#" class=" bg-white orange-red mr-2">SUBSCRIBE</a>
           </div>
         </ul>
         <button
@@ -32,8 +38,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse bg-light mt-3" id="navbarNav">
-          <ul class="navbar-nav">
-            <form class="form-inline mt-3">
+          <ul class="navbar-nav px-5">
+            <form class="form-inline mt-3 d-lg-none">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search" />
                 <div class="input-group-append">
@@ -52,10 +58,188 @@
             <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Opinion</a></li>
             <li class="nav-item"><a class="nav-link" href="#">N DELIBLE</a></li>
+            <form class="form-inline mt-3 d-none d-lg-inline-block ">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" />
+                <div class="input-group-append">
+                  <button class="btn btn-primary ml-auto">Search</button>
+                </div>
+              </div>
+            </form>
           </ul>
         </div>
       </div>
     </nav>
+
+    <div class="row" style="margin-top: 120px">
+      <div class="col-lg-3 m-2 col-lg-offset-1 d-none d-lg-block">
+        <div class="text-muted ml-3">FEATURED STORIES</div>
+        <img
+          src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2018/12/24/indonesia-tsunami-java.jpg"
+          alt=""
+        />
+        <h2>
+          <strong
+            >Indonesia Tsunami: Warnings of More Eruptions and Waves</strong
+          >
+        </h2>
+        <p>
+          Rescue workers are still battling to reach the hardest-hit areas of
+          Saturday’s disaster.
+        </p>
+      </div>
+      <div class="col-lg-6 text-center ">
+        <div class="text-muted ">TOP STORY</div>
+        <img
+          src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2018/12/25/donald-trump.jpg"
+          alt=""
+        />
+        <h2>
+          <strong
+            >Global Markets Plunge as Trump Attacks Federal Reserve</strong
+          >
+        </h2>
+        <p>
+          U.S. stocks headed into the festive season on the back of a
+          four-session losing streak.
+        </p>
+        <div class="text-muted m-3">MORE STORIES</div>
+        <div class="media media2 m-3 border-bottom">
+          <img
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg_thumb/public/2018/12/24/donald-trump-cable-news-mattis-resignation.jpg"
+            alt=""
+          />
+
+          <div class="media-body">
+            <h4>Trump Brought Mattis Exit Forward After News Coverage</h4>
+            <p>
+              Trump abruptly announced on Sunday that Mattis's exit as defense
+              secretary was being brought forward by two months.
+            </p>
+          </div>
+        </div>
+        <div class="media border-bottom media2">
+          <img src="img/465601f6-da5a-4749-91bd-306c63161131.JPG" alt="" />
+          <div class="media-body">
+            <h4>Abu Dhabi Cat Saves Millions</h4>
+            <p>
+              Dubbed "SuperCat". This cat was able to save 2 million civilians
+              on Christmas day
+            </p>
+          </div>
+        </div>
+        <div class="media border-bottom media2">
+          <img
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg_thumb/public/2018/12/25/gettyimages-1074776538.jpg"
+            alt=""
+          />
+
+          <div class="media-body">
+            <h4>Indonesia Tsunami Latest Update: 429 Confirmed Dead</h4>
+            <p>
+              "With the tsunami, we can only pray humbly and not celebrate much
+              for this year’s Christmas,” Pastor Rusman Anita Sitorus said.
+            </p>
+          </div>
+        </div>
+
+        <div class="media border-bottom media2">
+          <img
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg_thumb/public/2018/12/24/gettyimages-1074406104-594x594.jpg"
+            alt=""
+          />
+
+          <div class="media-body">
+            <h4>Russia Could Launch Attack on Ukraine Over Christmas</h4>
+            <p>
+              Regional experts also predicted that Russia may look to take
+              advantage of the uncertainty created by James Mattis's resignation
+              as President Trump's defense secretary.
+            </p>
+          </div>
+        </div>
+        <div class="media border-bottom media2">
+          <img
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg_thumb/public/2018/12/24/gettyimages-1074717752.jpg"
+            alt=""
+          />
+
+          <div class="media-body">
+            <h4>Gunmen Kill At Least 29 In Kabul Attack</h4>
+            <p>
+              More than two dozen people were killed in Kabul on Monday when
+              gunmen stormed a government building and engaged security forces
+              in an hours-long, coordinated assault in the heart of the Afghan
+              capital.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 d-none d-lg-block">
+        <div class="text-muted ">OPINIONS</div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png"
+          />
+          <div class="media-body">
+            <h5>The Shutdown And The Economic Precipice</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png"
+          />
+          <div class="media-body">
+            <h5>Border Agents Build Cage Around Congressman, Citizen</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnists-jonas-parello-plesner.png"
+          />
+          <div class="media-body">
+            <h5>Arming Teachers Is Not the Answer</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png"
+          />
+          <div class="media-body">
+            <h5>Why Millennials Need Adulting Classes</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnists-seth-abraham.png"
+          />
+          <div class="media-body">
+            <h5>Trump-Russia: What Congress Should Investigate First</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+        <div class="media media1 border-bottom m-2">
+          <img
+            class="mr-3"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/ben_shapiro_v2.png"
+          />
+          <div class="media-body">
+            <h5>Trump’s Syria Exit Is a Pyrrhic Victory</h5>
+            <div class="text-muted">BY ROBERT REICH</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

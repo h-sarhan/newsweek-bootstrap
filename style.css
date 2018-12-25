@@ -1,6 +1,8 @@
 .orange-red {
   color: orangered !important;
   padding: 0.5rem 1rem;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: 700;
 }
 .bg-orange-red {
   background-color: orangered;
@@ -9,10 +11,14 @@
 .navbar-brand {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
-  font-size: 26px !important;
+  font-size: 26px;
 }
 .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder !important;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: 700 !important;
   color: black !important;
+}
+.media1 img {
+  width: 64px;
+  height: 64px;
 }
